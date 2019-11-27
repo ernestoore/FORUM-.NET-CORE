@@ -13,7 +13,7 @@ namespace LambdaForums.Models.Post
         public string Author { get; set; }
         public int AuthorRating { get; set; }
         public string AuthorId { get; set; }
-        public DateTime DatePosted { get; set; }
+        public string DatePosted { get; set; }
 
         public ForumListingModel Forum { get; set; }
 
